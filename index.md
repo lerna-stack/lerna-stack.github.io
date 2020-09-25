@@ -2,9 +2,6 @@
 layout: default
 ---
 
-Lerna is a software stack for building high-availability, high-throughput systems.
-
-
 - By executing Lerna's scripts to VMs running on the cloud (public or private), you can build an environment that is configured to achieve high availability and high throughput.
 - In that environment, designing and implementing applications based on the actor model ([Akka](https://akka.io/)) and CQRS(Command Query Responsibility Segregation) with Event Sourcing architecture allows you to build highly available systems.
 - Libraries and reference implementations for design and implementation are provided.
