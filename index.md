@@ -42,6 +42,7 @@ layout: default
 | Learning Content | Coming soon. |
 
 ## Libraries
+
 | Name  | Description |
 | ----------- | ---- |
 | [akka-entity-replication](https://github.com/lerna-stack/akka-entity-replication) | Akka extension for fast recovery from failure with replicating stateful entity on multiple nodes in Cluster |
