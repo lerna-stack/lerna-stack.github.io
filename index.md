@@ -42,9 +42,10 @@ layout: default
 | Learning Content | Coming soon. |
 
 ## Libraries
+
 | Name  | Description |
 | ----------- | ---- |
-| [akka-entity-replication](https://github.com/lerna-stack/akka-entity-replication) | Replicate entities on multiple nodes in Akka Cluster for fast failover in case of node failure |
+| [akka-entity-replication](https://github.com/lerna-stack/akka-entity-replication) | Akka extension for fast recovery from failure with replicating stateful entity on multiple nodes in Cluster |
 
 * Currently, only akka-entity-replication is available; other content will be released soon.
 
