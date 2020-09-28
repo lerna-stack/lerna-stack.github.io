@@ -1,1 +1,5 @@
-theme: jekyll-theme-architect
+theme: jekyll-theme-cayman
+title: Lerna
+description: Lerna is a software stack for building high-availability, high-throughput systems.
+github:
+    repository_url: https://github.com/lerna-stack
