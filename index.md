@@ -52,9 +52,13 @@ layout: default
 ## License
 Lerna is released under the terms of the [Apache License Version 2.0](./LICENSE).
 
+<!-- Escape to set blank lines and use "*" -->
+\
+\
+\* The names of the companies and products described in this site are trademarks or registered trademarks of the respective companies.  
+\* Amazon Web Services, AWS are trademarks of Amazon.com, Inc. or its affiliates in the United States and/or other countries.  
+\* Akka is a trademark of Lightbend, Inc.
 
-The names of the companies and products described in this site are trademarks or registered trademarks of the respective companies.  
-Amazon Web Services, AWS are trademarks of Amazon.com, Inc. or its affiliates in the United States and/or other countries.
 
 © 2020 TIS Inc.
 
