@@ -1,0 +1,966 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+          <title></title>
+          <meta name="description" content="" />
+          <meta name="keywords" content="" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      
+      <link href="../../lib/index.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+      <script type="text/javascript" src="../../lib/jquery.panzoom.min.js"></script>
+      <script type="text/javascript" src="../../lib/jquery.mousewheel.min.js"></script>
+      <script type="text/javascript" src="../../lib/index.js"></script>
+      <script type="text/javascript" src="../../index.js"></script>
+      <script type="text/javascript" src="../../lib/scheduler.js"></script>
+      <script type="text/javascript" src="../../lib/template.js"></script>
+      
+      <script type="text/javascript">
+        /* this variable can be used by the JS to determine the path to the root document */
+        var toRoot = '../../';
+      </script>
+    
+        </head>
+        <body>
+      <div id="search">
+        <span id="doc-title"><span id="doc-version"></span></span>
+        <span class="close-results"><span class="left">&lt;</span> Back</span>
+        <div id="textfilter">
+          <span class="input">
+            <input autocapitalize="none" placeholder="Search" id="index-input" type="text" accesskey="/" />
+            <i class="clear material-icons"></i>
+            <i id="search-icon" class="material-icons"></i>
+          </span>
+        </div>
+    </div>
+      <div id="search-results">
+        <div id="search-progress">
+          <div id="progress-fill"></div>
+        </div>
+        <div id="results-content">
+          <div id="entity-results"></div>
+          <div id="member-results"></div>
+        </div>
+      </div>
+      <div id="content-scroll-container" style="-webkit-overflow-scrolling: touch;">
+        <div id="content-container" style="-webkit-overflow-scrolling: touch;">
+          <div id="subpackage-spacer">
+            <div id="packages">
+              <h1>Packages</h1>
+              <ul>
+                <li name="_root_.root" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="_root_"></a><a id="root:_root_"></a>
+      <span class="permalink">
+      <a href="../../index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../../index.html"><span class="name">root</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../index.html" class="extype" name="_root_">root</a></dd></dl></div>
+    </li><li name="_root_.lerna" visbl="pub" class="indented1 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="lerna"></a><a id="lerna:lerna"></a>
+      <span class="permalink">
+      <a href="../../lerna/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../index.html"><span class="name">lerna</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../index.html" class="extype" name="_root_">root</a></dd></dl></div>
+    </li><li name="lerna.testkit" visbl="pub" class="indented2 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="testkit"></a><a id="testkit:testkit"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="Lerna TestKit" href="index.html"><span class="name">testkit</span></a>
+      </span>
+      
+      <p class="shortcomment cmt">Lerna TestKit</p><div class="fullcomment"><div class="comment cmt"><p>Lerna TestKit</p><h4>Overview</h4><p>The package provides some test kits.
+Some classes require additional dependencies.
+For more details, see the Lerna project page.</p><ul><li><a href="akka/index.html" class="extype" name="lerna.testkit.akka">lerna.testkit.akka</a>: test kits for Akka classic</li><li><a href="airframe/index.html" class="extype" name="lerna.testkit.airframe">lerna.testkit.airframe</a>: test kits for Airframe</li><li><a href="wiremock/index.html" class="extype" name="lerna.testkit.wiremock">lerna.testkit.wiremock</a>: test kits for WireMock</li></ul></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="lerna">lerna</a></dd></dl></div>
+    </li><li name="lerna.testkit.airframe" visbl="pub" class="indented3 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="airframe"></a><a id="airframe:airframe"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/airframe/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="airframe/index.html"><span class="name">airframe</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="index.html" class="extype" name="lerna.testkit">testkit</a></dd></dl></div>
+    </li><li name="lerna.testkit.akka" visbl="pub" class="indented3 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="akka"></a><a id="akka:akka"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/akka/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="akka/index.html"><span class="name">akka</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="index.html" class="extype" name="lerna.testkit">testkit</a></dd></dl></div>
+    </li><li name="lerna.testkit.wiremock" visbl="pub" class="indented3 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wiremock"></a><a id="wiremock:wiremock"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/wiremock/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="wiremock/index.html"><span class="name">wiremock</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="index.html" class="extype" name="lerna.testkit">testkit</a></dd></dl></div>
+    </li><li class="current-entities indented2">
+                        <a class="object" href="EqualsSupport$.html" title="A object that provides a org.scalactic.TypeCheckedTripleEquals.CheckingEqualizer for any type"></a>
+                        <a class="trait" href="" title="A trait that provides a org.scalactic.TypeCheckedTripleEquals.CheckingEqualizer for any type"></a>
+                        <a href="" title="A trait that provides a org.scalactic.TypeCheckedTripleEquals.CheckingEqualizer for any type">EqualsSupport</a>
+                      </li>
+              </ul>
+            </div>
+          </div>
+          <div id="content">
+            <body class="trait type">
+      <div id="definition">
+        <a href="EqualsSupport$.html" title="See companion object"><div class="big-circle trait-companion-object">t</div></a>
+        <p id="owner"><a href="../index.html" class="extype" name="lerna">lerna</a>.<a href="index.html" class="extype" name="lerna.testkit">testkit</a></p>
+        <h1><a href="EqualsSupport$.html" title="See companion object">EqualsSupport</a><span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span></h1>
+        <h3><span class="morelinks"><div>
+            Companion <a href="EqualsSupport$.html" title="See companion object">object EqualsSupport</a>
+          </div></span></h3>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <span class="name">EqualsSupport</span><span class="result"> extends <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/TypeCheckedTripleEquals.html#org.scalactic.TypeCheckedTripleEquals" class="extype" name="org.scalactic.TypeCheckedTripleEquals">TypeCheckedTripleEquals</a></span>
+      </span>
+      </h4>
+
+      
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>A trait that provides a <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/TripleEqualsSupport$CheckingEqualizer.html" class="extype" name="org.scalactic.TripleEqualsSupport.CheckingEqualizer">org.scalactic.TypeCheckedTripleEquals.CheckingEqualizer</a> for any type</p><h4>Overview</h4><p>This trait provides a <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/TripleEqualsSupport$CheckingEqualizer.html" class="extype" name="org.scalactic.TripleEqualsSupport.CheckingEqualizer">org.scalactic.TypeCheckedTripleEquals.CheckingEqualizer</a> for <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/TypeCheckedTripleEquals.html" class="extype" name="org.scalactic.TypeCheckedTripleEquals">org.scalactic.TypeCheckedTripleEquals</a>.
+For more details, see <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/TypeCheckedTripleEquals.html" class="extype" name="org.scalactic.TypeCheckedTripleEquals">org.scalactic.TypeCheckedTripleEquals</a>.
+</p></div><dl class="attributes block"> <dt>See also</dt><dd><span class="cmt"><p><a href="EqualsSupport$.html" class="extype" name="lerna.testkit.EqualsSupport">lerna.testkit.EqualsSupport$</a></p></span></dd></dl><div class="toggleContainer block">
+          <span class="toggle">
+            Linear Supertypes
+          </span>
+          <div class="superTypes hiddenContent"><a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/TypeCheckedTripleEquals.html#org.scalactic.TypeCheckedTripleEquals" class="extype" name="org.scalactic.TypeCheckedTripleEquals">TypeCheckedTripleEquals</a>, <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/LowPriorityTypeCheckedConstraint.html#org.scalactic.LowPriorityTypeCheckedConstraint" class="extype" name="org.scalactic.LowPriorityTypeCheckedConstraint">LowPriorityTypeCheckedConstraint</a>, <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/TripleEqualsSupport.html#org.scalactic.TripleEqualsSupport" class="extype" name="org.scalactic.TripleEqualsSupport">TripleEqualsSupport</a>, <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/AnyRef.html#scala.AnyRef" class="extype" name="scala.AnyRef">AnyRef</a>, <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Any.html#scala.Any" class="extype" name="scala.Any">Any</a></div>
+        </div><div class="toggleContainer block">
+            <span class="toggle">
+              Known Subclasses
+            </span>
+            <div class="subClasses hiddenContent"><a href="EqualsSupport$.html" class="extype" name="lerna.testkit.EqualsSupport">EqualsSupport</a></div>
+          </div></div>
+        
+
+      <div id="mbrsel">
+        <div class="toggle"></div>
+        <div id="memberfilter">
+          <i class="material-icons arrow"></i>
+          <span class="input">
+            <input id="mbrsel-input" placeholder="Filter all members" type="text" accesskey="/" />
+          </span>
+          <i class="clear material-icons"></i>
+        </div>
+        <div id="filterby">
+          <div id="order">
+            <span class="filtertype">Ordering</span>
+            <ol>
+              
+              <li class="alpha in"><span>Alphabetic</span></li>
+              <li class="inherit out"><span>By Inheritance</span></li>
+            </ol>
+          </div>
+          <div class="ancestors">
+                  <span class="filtertype">Inherited<br />
+                  </span>
+                  <ol id="linearization">
+                    <li class="in" name="lerna.testkit.EqualsSupport"><span>EqualsSupport</span></li><li class="in" name="org.scalactic.TypeCheckedTripleEquals"><span>TypeCheckedTripleEquals</span></li><li class="in" name="org.scalactic.LowPriorityTypeCheckedConstraint"><span>LowPriorityTypeCheckedConstraint</span></li><li class="in" name="org.scalactic.TripleEqualsSupport"><span>TripleEqualsSupport</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                  </ol>
+                </div><div class="ancestors">
+              <span class="filtertype"></span>
+              <ol>
+                <li class="hideall out"><span>Hide All</span></li>
+                <li class="showall in"><span>Show All</span></li>
+              </ol>
+            </div>
+          <div id="visbl">
+              <span class="filtertype">Visibility</span>
+              <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+            </div>
+        </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="org.scalactic.TripleEqualsSupport.CheckingEqualizer" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="CheckingEqualizer[L]extendsAnyRef"></a><a id="CheckingEqualizer[L]:CheckingEqualizer[L]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#CheckingEqualizer[L]extendsAnyRef" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <span class="name">CheckingEqualizer</span><span class="tparams">[<span name="L">L</span>]</span><span class="result"> extends <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/AnyRef.html#scala.AnyRef" class="extype" name="scala.AnyRef">AnyRef</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TripleEqualsSupport</dd></dl></div>
+    </li><li name="org.scalactic.TripleEqualsSupport.Equalizer" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Equalizer[L]extendsAnyRef"></a><a id="Equalizer[L]:Equalizer[L]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#Equalizer[L]extendsAnyRef" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Equalizer</span><span class="tparams">[<span name="L">L</span>]</span><span class="result"> extends <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/AnyRef.html#scala.AnyRef" class="extype" name="scala.AnyRef">AnyRef</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TripleEqualsSupport</dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div class="values members">
+              <h3>Value Members</h3>
+              <ol>
+                <li name="scala.AnyRef#!=" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:Any):Boolean"></a><a id="!=(Any):Boolean"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#!=(x$1:Any):Boolean" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Any.html#scala.Any" class="extype" name="scala.Any">Any</a></span>)</span><span class="result">: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Boolean.html#scala.Boolean" class="extype" name="scala.Boolean">Boolean</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="org.scalactic.TripleEqualsSupport#!==" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!==[T](right:org.scalactic.TripleEqualsSupport.Spread[T]):org.scalactic.TripleEqualsSupport.TripleEqualsInvocationOnSpread[T]"></a><a id="!==[T](Spread[T]):TripleEqualsInvocationOnSpread[T]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#!==[T](right:org.scalactic.TripleEqualsSupport.Spread[T]):org.scalactic.TripleEqualsSupport.TripleEqualsInvocationOnSpread[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq$eq" class="name">!==</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="right">right: <span class="extype" name="org.scalactic.TripleEqualsSupport.Spread">Spread</span>[<span class="extype" name="org.scalactic.TripleEqualsSupport.!==.T">T</span>]</span>)</span><span class="result">: <span class="extype" name="org.scalactic.TripleEqualsSupport.TripleEqualsInvocationOnSpread">TripleEqualsInvocationOnSpread</span>[<span class="extype" name="org.scalactic.TripleEqualsSupport.!==.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TripleEqualsSupport</dd></dl></div>
+    </li><li name="org.scalactic.TripleEqualsSupport#!==" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!==(right:Null):org.scalactic.TripleEqualsSupport.TripleEqualsInvocation[Null]"></a><a id="!==(Null):TripleEqualsInvocation[Null]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#!==(right:Null):org.scalactic.TripleEqualsSupport.TripleEqualsInvocation[Null]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq$eq" class="name">!==</span><span class="params">(<span name="right">right: <span class="extype" name="scala.Null">Null</span></span>)</span><span class="result">: <span class="extype" name="org.scalactic.TripleEqualsSupport.TripleEqualsInvocation">TripleEqualsInvocation</span>[<span class="extype" name="scala.Null">Null</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TripleEqualsSupport</dd></dl></div>
+    </li><li name="org.scalactic.TripleEqualsSupport#!==" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!==[T](right:T):org.scalactic.TripleEqualsSupport.TripleEqualsInvocation[T]"></a><a id="!==[T](T):TripleEqualsInvocation[T]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#!==[T](right:T):org.scalactic.TripleEqualsSupport.TripleEqualsInvocation[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq$eq" class="name">!==</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="right">right: <span class="extype" name="org.scalactic.TripleEqualsSupport.!==.T">T</span></span>)</span><span class="result">: <span class="extype" name="org.scalactic.TripleEqualsSupport.TripleEqualsInvocation">TripleEqualsInvocation</span>[<span class="extype" name="org.scalactic.TripleEqualsSupport.!==.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TripleEqualsSupport</dd></dl></div>
+    </li><li name="scala.AnyRef###" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="##():Int"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html###():Int" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $hash$hash" class="name">##</span><span class="params">()</span><span class="result">: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Int.html#scala.Int" class="extype" name="scala.Int">Int</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#==" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:Any):Boolean"></a><a id="==(Any):Boolean"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#==(x$1:Any):Boolean" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Any.html#scala.Any" class="extype" name="scala.Any">Any</a></span>)</span><span class="result">: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Boolean.html#scala.Boolean" class="extype" name="scala.Boolean">Boolean</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="org.scalactic.TripleEqualsSupport#===" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="===[T](right:org.scalactic.TripleEqualsSupport.Spread[T]):org.scalactic.TripleEqualsSupport.TripleEqualsInvocationOnSpread[T]"></a><a id="===[T](Spread[T]):TripleEqualsInvocationOnSpread[T]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#===[T](right:org.scalactic.TripleEqualsSupport.Spread[T]):org.scalactic.TripleEqualsSupport.TripleEqualsInvocationOnSpread[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq$eq" class="name">===</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="right">right: <span class="extype" name="org.scalactic.TripleEqualsSupport.Spread">Spread</span>[<span class="extype" name="org.scalactic.TripleEqualsSupport.===.T">T</span>]</span>)</span><span class="result">: <span class="extype" name="org.scalactic.TripleEqualsSupport.TripleEqualsInvocationOnSpread">TripleEqualsInvocationOnSpread</span>[<span class="extype" name="org.scalactic.TripleEqualsSupport.===.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TripleEqualsSupport</dd></dl></div>
+    </li><li name="org.scalactic.TripleEqualsSupport#===" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="===(right:Null):org.scalactic.TripleEqualsSupport.TripleEqualsInvocation[Null]"></a><a id="===(Null):TripleEqualsInvocation[Null]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#===(right:Null):org.scalactic.TripleEqualsSupport.TripleEqualsInvocation[Null]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq$eq" class="name">===</span><span class="params">(<span name="right">right: <span class="extype" name="scala.Null">Null</span></span>)</span><span class="result">: <span class="extype" name="org.scalactic.TripleEqualsSupport.TripleEqualsInvocation">TripleEqualsInvocation</span>[<span class="extype" name="scala.Null">Null</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TripleEqualsSupport</dd></dl></div>
+    </li><li name="org.scalactic.TripleEqualsSupport#===" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="===[T](right:T):org.scalactic.TripleEqualsSupport.TripleEqualsInvocation[T]"></a><a id="===[T](T):TripleEqualsInvocation[T]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#===[T](right:T):org.scalactic.TripleEqualsSupport.TripleEqualsInvocation[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq$eq" class="name">===</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="right">right: <span class="extype" name="org.scalactic.TripleEqualsSupport.===.T">T</span></span>)</span><span class="result">: <span class="extype" name="org.scalactic.TripleEqualsSupport.TripleEqualsInvocation">TripleEqualsInvocation</span>[<span class="extype" name="org.scalactic.TripleEqualsSupport.===.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TripleEqualsSupport</dd></dl></div>
+    </li><li name="scala.Any#asInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#asInstanceOf[T0]:T0" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Any.asInstanceOf.T0">T0</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.AnyRef#clone" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="clone():Object"></a><a id="clone():AnyRef"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#clone():Object" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">clone</span><span class="params">()</span><span class="result">: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/AnyRef.html#scala.AnyRef" class="extype" name="scala.AnyRef">AnyRef</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<span class="extype" name="java.lang">lang</span>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.CloneNotSupportedException]">...</span>
+    </span>)</span>
+              
+                <span class="name">@native</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="org.scalactic.TypeCheckedTripleEquals#conversionCheckedConstraint" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="conversionCheckedConstraint[A,B](implicitequivalenceOfA:org.scalactic.Equivalence[A],implicitcnv:B=&gt;A):org.scalactic.CanEqual[A,B]"></a><a id="conversionCheckedConstraint[A,B](Equivalence[A],(B)⇒A):CanEqual[A,B]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#conversionCheckedConstraint[A,B](implicitequivalenceOfA:org.scalactic.Equivalence[A],implicitcnv:B=&gt;A):org.scalactic.CanEqual[A,B]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">conversionCheckedConstraint</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="equivalenceOfA">equivalenceOfA: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/Equivalence.html#org.scalactic.Equivalence" class="extype" name="org.scalactic.Equivalence">Equivalence</a>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.conversionCheckedConstraint.A">A</span>]</span>, <span name="cnv">cnv: (<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.conversionCheckedConstraint.B">B</span>) ⇒ <span class="extype" name="org.scalactic.TypeCheckedTripleEquals.conversionCheckedConstraint.A">A</span></span>)</span><span class="result">: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/CanEqual.html#org.scalactic.CanEqual" class="extype" name="org.scalactic.CanEqual">CanEqual</a>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.conversionCheckedConstraint.A">A</span>, <span class="extype" name="org.scalactic.TypeCheckedTripleEquals.conversionCheckedConstraint.B">B</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TypeCheckedTripleEquals → TripleEqualsSupport</dd></dl></div>
+    </li><li name="org.scalactic.LowPriorityTypeCheckedConstraint#convertEquivalenceToAToBConstraint" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="convertEquivalenceToAToBConstraint[A,B](equivalenceOfB:org.scalactic.Equivalence[B])(implicitev:A&lt;:&lt;B):org.scalactic.CanEqual[A,B]"></a><a id="convertEquivalenceToAToBConstraint[A,B](Equivalence[B])(&lt;:&lt;[A,B]):CanEqual[A,B]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#convertEquivalenceToAToBConstraint[A,B](equivalenceOfB:org.scalactic.Equivalence[B])(implicitev:A&lt;:&lt;B):org.scalactic.CanEqual[A,B]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">convertEquivalenceToAToBConstraint</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>]</span><span class="params">(<span name="equivalenceOfB">equivalenceOfB: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/Equivalence.html#org.scalactic.Equivalence" class="extype" name="org.scalactic.Equivalence">Equivalence</a>[<span class="extype" name="org.scalactic.LowPriorityTypeCheckedConstraint.convertEquivalenceToAToBConstraint.B">B</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="ev">ev: <span class="extype" name="scala.Predef.&lt;:&lt;">&lt;:&lt;</span>[<span class="extype" name="org.scalactic.LowPriorityTypeCheckedConstraint.convertEquivalenceToAToBConstraint.A">A</span>, <span class="extype" name="org.scalactic.LowPriorityTypeCheckedConstraint.convertEquivalenceToAToBConstraint.B">B</span>]</span>)</span><span class="result">: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/CanEqual.html#org.scalactic.CanEqual" class="extype" name="org.scalactic.CanEqual">CanEqual</a>[<span class="extype" name="org.scalactic.LowPriorityTypeCheckedConstraint.convertEquivalenceToAToBConstraint.A">A</span>, <span class="extype" name="org.scalactic.LowPriorityTypeCheckedConstraint.convertEquivalenceToAToBConstraint.B">B</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LowPriorityTypeCheckedConstraint → TripleEqualsSupport</dd></dl></div>
+    </li><li name="org.scalactic.TypeCheckedTripleEquals#convertEquivalenceToAToBConversionConstraint" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="convertEquivalenceToAToBConversionConstraint[A,B](equivalenceOfB:org.scalactic.Equivalence[B])(implicitev:A=&gt;B):org.scalactic.CanEqual[A,B]"></a><a id="convertEquivalenceToAToBConversionConstraint[A,B](Equivalence[B])((A)⇒B):CanEqual[A,B]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#convertEquivalenceToAToBConversionConstraint[A,B](equivalenceOfB:org.scalactic.Equivalence[B])(implicitev:A=&gt;B):org.scalactic.CanEqual[A,B]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">convertEquivalenceToAToBConversionConstraint</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>]</span><span class="params">(<span name="equivalenceOfB">equivalenceOfB: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/Equivalence.html#org.scalactic.Equivalence" class="extype" name="org.scalactic.Equivalence">Equivalence</a>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertEquivalenceToAToBConversionConstraint.B">B</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="ev">ev: (<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertEquivalenceToAToBConversionConstraint.A">A</span>) ⇒ <span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertEquivalenceToAToBConversionConstraint.B">B</span></span>)</span><span class="result">: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/CanEqual.html#org.scalactic.CanEqual" class="extype" name="org.scalactic.CanEqual">CanEqual</a>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertEquivalenceToAToBConversionConstraint.A">A</span>, <span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertEquivalenceToAToBConversionConstraint.B">B</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TypeCheckedTripleEquals → TripleEqualsSupport</dd></dl></div>
+    </li><li name="org.scalactic.TypeCheckedTripleEquals#convertEquivalenceToBToAConstraint" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="convertEquivalenceToBToAConstraint[A,B](equivalenceOfA:org.scalactic.Equivalence[A])(implicitev:B&lt;:&lt;A):org.scalactic.CanEqual[A,B]"></a><a id="convertEquivalenceToBToAConstraint[A,B](Equivalence[A])(&lt;:&lt;[B,A]):CanEqual[A,B]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#convertEquivalenceToBToAConstraint[A,B](equivalenceOfA:org.scalactic.Equivalence[A])(implicitev:B&lt;:&lt;A):org.scalactic.CanEqual[A,B]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">convertEquivalenceToBToAConstraint</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>]</span><span class="params">(<span name="equivalenceOfA">equivalenceOfA: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/Equivalence.html#org.scalactic.Equivalence" class="extype" name="org.scalactic.Equivalence">Equivalence</a>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertEquivalenceToBToAConstraint.A">A</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="ev">ev: <span class="extype" name="scala.Predef.&lt;:&lt;">&lt;:&lt;</span>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertEquivalenceToBToAConstraint.B">B</span>, <span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertEquivalenceToBToAConstraint.A">A</span>]</span>)</span><span class="result">: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/CanEqual.html#org.scalactic.CanEqual" class="extype" name="org.scalactic.CanEqual">CanEqual</a>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertEquivalenceToBToAConstraint.A">A</span>, <span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertEquivalenceToBToAConstraint.B">B</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TypeCheckedTripleEquals → TripleEqualsSupport</dd></dl></div>
+    </li><li name="org.scalactic.TypeCheckedTripleEquals#convertEquivalenceToBToAConversionConstraint" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="convertEquivalenceToBToAConversionConstraint[A,B](equivalenceOfA:org.scalactic.Equivalence[A])(implicitev:B=&gt;A):org.scalactic.CanEqual[A,B]"></a><a id="convertEquivalenceToBToAConversionConstraint[A,B](Equivalence[A])((B)⇒A):CanEqual[A,B]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#convertEquivalenceToBToAConversionConstraint[A,B](equivalenceOfA:org.scalactic.Equivalence[A])(implicitev:B=&gt;A):org.scalactic.CanEqual[A,B]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">convertEquivalenceToBToAConversionConstraint</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>]</span><span class="params">(<span name="equivalenceOfA">equivalenceOfA: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/Equivalence.html#org.scalactic.Equivalence" class="extype" name="org.scalactic.Equivalence">Equivalence</a>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertEquivalenceToBToAConversionConstraint.A">A</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="ev">ev: (<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertEquivalenceToBToAConversionConstraint.B">B</span>) ⇒ <span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertEquivalenceToBToAConversionConstraint.A">A</span></span>)</span><span class="result">: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/CanEqual.html#org.scalactic.CanEqual" class="extype" name="org.scalactic.CanEqual">CanEqual</a>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertEquivalenceToBToAConversionConstraint.A">A</span>, <span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertEquivalenceToBToAConversionConstraint.B">B</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TypeCheckedTripleEquals → TripleEqualsSupport</dd></dl></div>
+    </li><li name="lerna.testkit.EqualsSupport#convertToCheckingEqualizer" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="convertToCheckingEqualizer[T](left:T):EqualsSupport.this.CheckingEqualizer[T]"></a><a id="convertToCheckingEqualizer[T](T):CheckingEqualizer[T]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#convertToCheckingEqualizer[T](left:T):EqualsSupport.this.CheckingEqualizer[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">convertToCheckingEqualizer</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="left">left: <span class="extype" name="lerna.testkit.EqualsSupport.convertToCheckingEqualizer.T">T</span></span>)</span><span class="result">: <a href="#CheckingEqualizer[L]extendsAnyRef" class="extmbr" name="lerna.testkit.EqualsSupport.CheckingEqualizer">CheckingEqualizer</a>[<span class="extype" name="lerna.testkit.EqualsSupport.convertToCheckingEqualizer.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="lerna.testkit.EqualsSupport">EqualsSupport</a> → TypeCheckedTripleEquals → TripleEqualsSupport</dd></dl></div>
+    </li><li name="org.scalactic.TypeCheckedTripleEquals#convertToEqualizer" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="convertToEqualizer[T](left:T):TypeCheckedTripleEquals.this.Equalizer[T]"></a><a id="convertToEqualizer[T](T):Equalizer[T]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#convertToEqualizer[T](left:T):TypeCheckedTripleEquals.this.Equalizer[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">convertToEqualizer</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="left">left: <span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertToEqualizer.T">T</span></span>)</span><span class="result">: <a href="#Equalizer[L]extendsAnyRef" class="extmbr" name="lerna.testkit.EqualsSupport.Equalizer">Equalizer</a>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.convertToEqualizer.T">T</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TypeCheckedTripleEquals → TripleEqualsSupport</dd></dl></div>
+    </li><li name="org.scalactic.TripleEqualsSupport#defaultEquality" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="defaultEquality[A]:org.scalactic.Equality[A]"></a><a id="defaultEquality[A]:Equality[A]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#defaultEquality[A]:org.scalactic.Equality[A]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">defaultEquality</span><span class="tparams">[<span name="A">A</span>]</span><span class="result">: <span class="extype" name="org.scalactic.Equality">Equality</span>[<span class="extype" name="org.scalactic.TripleEqualsSupport.defaultEquality.A">A</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TripleEqualsSupport</dd></dl></div>
+    </li><li name="scala.AnyRef#eq" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="eq(x$1:AnyRef):Boolean"></a><a id="eq(AnyRef):Boolean"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#eq(x$1:AnyRef):Boolean" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">eq</span><span class="params">(<span name="arg0">arg0: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/AnyRef.html#scala.AnyRef" class="extype" name="scala.AnyRef">AnyRef</a></span>)</span><span class="result">: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Boolean.html#scala.Boolean" class="extype" name="scala.Boolean">Boolean</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#equals" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="equals(x$1:Any):Boolean"></a><a id="equals(Any):Boolean"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#equals(x$1:Any):Boolean" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">equals</span><span class="params">(<span name="arg0">arg0: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Any.html#scala.Any" class="extype" name="scala.Any">Any</a></span>)</span><span class="result">: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Boolean.html#scala.Boolean" class="extype" name="scala.Boolean">Boolean</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#finalize" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="finalize():Unit"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#finalize():Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">finalize</span><span class="params">()</span><span class="result">: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Unit.html#scala.Unit" class="extype" name="scala.Unit">Unit</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<span class="extype" name="java.lang">lang</span>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">classOf[java.lang.Throwable]</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#getClass" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getClass():Class[_]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#getClass():Class[_]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getClass</span><span class="params">()</span><span class="result">: <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html#java.lang.Class" class="extype" name="java.lang.Class">Class</a>[_]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd><dt>Annotations</dt><dd>
+                <span class="name">@native</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#hashCode" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hashCode():Int"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#hashCode():Int" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hashCode</span><span class="params">()</span><span class="result">: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Int.html#scala.Int" class="extype" name="scala.Int">Int</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd><dt>Annotations</dt><dd>
+                <span class="name">@native</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.Any#isInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#isInstanceOf[T0]:Boolean" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Boolean.html#scala.Boolean" class="extype" name="scala.Boolean">Boolean</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="org.scalactic.TypeCheckedTripleEquals#lowPriorityConversionCheckedConstraint" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="lowPriorityConversionCheckedConstraint[A,B](implicitequivalenceOfB:org.scalactic.Equivalence[B],implicitcnv:A=&gt;B):org.scalactic.CanEqual[A,B]"></a><a id="lowPriorityConversionCheckedConstraint[A,B](Equivalence[B],(A)⇒B):CanEqual[A,B]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#lowPriorityConversionCheckedConstraint[A,B](implicitequivalenceOfB:org.scalactic.Equivalence[B],implicitcnv:A=&gt;B):org.scalactic.CanEqual[A,B]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">lowPriorityConversionCheckedConstraint</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="equivalenceOfB">equivalenceOfB: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/Equivalence.html#org.scalactic.Equivalence" class="extype" name="org.scalactic.Equivalence">Equivalence</a>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.lowPriorityConversionCheckedConstraint.B">B</span>]</span>, <span name="cnv">cnv: (<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.lowPriorityConversionCheckedConstraint.A">A</span>) ⇒ <span class="extype" name="org.scalactic.TypeCheckedTripleEquals.lowPriorityConversionCheckedConstraint.B">B</span></span>)</span><span class="result">: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/CanEqual.html#org.scalactic.CanEqual" class="extype" name="org.scalactic.CanEqual">CanEqual</a>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.lowPriorityConversionCheckedConstraint.A">A</span>, <span class="extype" name="org.scalactic.TypeCheckedTripleEquals.lowPriorityConversionCheckedConstraint.B">B</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TypeCheckedTripleEquals → TripleEqualsSupport</dd></dl></div>
+    </li><li name="org.scalactic.LowPriorityTypeCheckedConstraint#lowPriorityTypeCheckedConstraint" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="lowPriorityTypeCheckedConstraint[A,B](implicitequivalenceOfB:org.scalactic.Equivalence[B],implicitev:A&lt;:&lt;B):org.scalactic.CanEqual[A,B]"></a><a id="lowPriorityTypeCheckedConstraint[A,B](Equivalence[B],&lt;:&lt;[A,B]):CanEqual[A,B]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#lowPriorityTypeCheckedConstraint[A,B](implicitequivalenceOfB:org.scalactic.Equivalence[B],implicitev:A&lt;:&lt;B):org.scalactic.CanEqual[A,B]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">lowPriorityTypeCheckedConstraint</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="equivalenceOfB">equivalenceOfB: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/Equivalence.html#org.scalactic.Equivalence" class="extype" name="org.scalactic.Equivalence">Equivalence</a>[<span class="extype" name="org.scalactic.LowPriorityTypeCheckedConstraint.lowPriorityTypeCheckedConstraint.B">B</span>]</span>, <span name="ev">ev: <span class="extype" name="scala.Predef.&lt;:&lt;">&lt;:&lt;</span>[<span class="extype" name="org.scalactic.LowPriorityTypeCheckedConstraint.lowPriorityTypeCheckedConstraint.A">A</span>, <span class="extype" name="org.scalactic.LowPriorityTypeCheckedConstraint.lowPriorityTypeCheckedConstraint.B">B</span>]</span>)</span><span class="result">: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/CanEqual.html#org.scalactic.CanEqual" class="extype" name="org.scalactic.CanEqual">CanEqual</a>[<span class="extype" name="org.scalactic.LowPriorityTypeCheckedConstraint.lowPriorityTypeCheckedConstraint.A">A</span>, <span class="extype" name="org.scalactic.LowPriorityTypeCheckedConstraint.lowPriorityTypeCheckedConstraint.B">B</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LowPriorityTypeCheckedConstraint → TripleEqualsSupport</dd></dl></div>
+    </li><li name="scala.AnyRef#ne" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ne(x$1:AnyRef):Boolean"></a><a id="ne(AnyRef):Boolean"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#ne(x$1:AnyRef):Boolean" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ne</span><span class="params">(<span name="arg0">arg0: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/AnyRef.html#scala.AnyRef" class="extype" name="scala.AnyRef">AnyRef</a></span>)</span><span class="result">: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Boolean.html#scala.Boolean" class="extype" name="scala.Boolean">Boolean</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notify" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notify():Unit"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#notify():Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notify</span><span class="params">()</span><span class="result">: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Unit.html#scala.Unit" class="extype" name="scala.Unit">Unit</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@native</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#notifyAll" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notifyAll():Unit"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#notifyAll():Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notifyAll</span><span class="params">()</span><span class="result">: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Unit.html#scala.Unit" class="extype" name="scala.Unit">Unit</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@native</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#synchronized" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="synchronized[T0](x$1:=&gt;T0):T0"></a><a id="synchronized[T0](⇒T0):T0"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#synchronized[T0](x$1:=&gt;T0):T0" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">synchronized</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="params">(<span name="arg0">arg0: ⇒ <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>)</span><span class="result">: <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#toString" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toString():String"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#toString():String" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toString</span><span class="params">()</span><span class="result">: <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#java.lang.String" class="extype" name="java.lang.String">String</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="org.scalactic.TypeCheckedTripleEquals#typeCheckedConstraint" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="typeCheckedConstraint[A,B](implicitequivalenceOfA:org.scalactic.Equivalence[A],implicitev:B&lt;:&lt;A):org.scalactic.CanEqual[A,B]"></a><a id="typeCheckedConstraint[A,B](Equivalence[A],&lt;:&lt;[B,A]):CanEqual[A,B]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#typeCheckedConstraint[A,B](implicitequivalenceOfA:org.scalactic.Equivalence[A],implicitev:B&lt;:&lt;A):org.scalactic.CanEqual[A,B]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">typeCheckedConstraint</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="equivalenceOfA">equivalenceOfA: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/Equivalence.html#org.scalactic.Equivalence" class="extype" name="org.scalactic.Equivalence">Equivalence</a>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.typeCheckedConstraint.A">A</span>]</span>, <span name="ev">ev: <span class="extype" name="scala.Predef.&lt;:&lt;">&lt;:&lt;</span>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.typeCheckedConstraint.B">B</span>, <span class="extype" name="org.scalactic.TypeCheckedTripleEquals.typeCheckedConstraint.A">A</span>]</span>)</span><span class="result">: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/CanEqual.html#org.scalactic.CanEqual" class="extype" name="org.scalactic.CanEqual">CanEqual</a>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.typeCheckedConstraint.A">A</span>, <span class="extype" name="org.scalactic.TypeCheckedTripleEquals.typeCheckedConstraint.B">B</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TypeCheckedTripleEquals → TripleEqualsSupport</dd></dl></div>
+    </li><li name="org.scalactic.TypeCheckedTripleEquals#unconstrainedEquality" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="unconstrainedEquality[A,B](implicitequalityOfA:org.scalactic.Equality[A]):org.scalactic.CanEqual[A,B]"></a><a id="unconstrainedEquality[A,B](Equality[A]):CanEqual[A,B]"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#unconstrainedEquality[A,B](implicitequalityOfA:org.scalactic.Equality[A]):org.scalactic.CanEqual[A,B]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">unconstrainedEquality</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="equalityOfA">equalityOfA: <span class="extype" name="org.scalactic.Equality">Equality</span>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.unconstrainedEquality.A">A</span>]</span>)</span><span class="result">: <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/CanEqual.html#org.scalactic.CanEqual" class="extype" name="org.scalactic.CanEqual">CanEqual</a>[<span class="extype" name="org.scalactic.TypeCheckedTripleEquals.unconstrainedEquality.A">A</span>, <span class="extype" name="org.scalactic.TypeCheckedTripleEquals.unconstrainedEquality.B">B</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>TypeCheckedTripleEquals → TripleEqualsSupport</dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait():Unit"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#wait():Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">()</span><span class="result">: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Unit.html#scala.Unit" class="extype" name="scala.Unit">Unit</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long,x$2:Int):Unit"></a><a id="wait(Long,Int):Unit"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#wait(x$1:Long,x$2:Int):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Long.html#scala.Long" class="extype" name="scala.Long">Long</a></span>, <span name="arg1">arg1: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Int.html#scala.Int" class="extype" name="scala.Int">Int</a></span>)</span><span class="result">: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Unit.html#scala.Unit" class="extype" name="scala.Unit">Unit</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long):Unit"></a><a id="wait(Long):Unit"></a>
+      <span class="permalink">
+      <a href="../../lerna/testkit/EqualsSupport.html#wait(x$1:Long):Unit" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Long.html#scala.Long" class="extype" name="scala.Long">Long</a></span>)</span><span class="result">: <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Unit.html#scala.Unit" class="extype" name="scala.Unit">Unit</a></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+                <span class="name">@native</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li>
+              </ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="org.scalactic.TypeCheckedTripleEquals">
+              <h3>Inherited from <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/TypeCheckedTripleEquals.html#org.scalactic.TypeCheckedTripleEquals" class="extype" name="org.scalactic.TypeCheckedTripleEquals">TypeCheckedTripleEquals</a></h3>
+            </div><div class="parent" name="org.scalactic.LowPriorityTypeCheckedConstraint">
+              <h3>Inherited from <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/LowPriorityTypeCheckedConstraint.html#org.scalactic.LowPriorityTypeCheckedConstraint" class="extype" name="org.scalactic.LowPriorityTypeCheckedConstraint">LowPriorityTypeCheckedConstraint</a></h3>
+            </div><div class="parent" name="org.scalactic.TripleEqualsSupport">
+              <h3>Inherited from <a href="https://oss.sonatype.org/service/local/repositories/public/archive/org/scalactic/scalactic_2.12/3.0.9/scalactic_2.12-3.0.9-javadoc.jar/!/org/scalactic/TripleEqualsSupport.html#org.scalactic.TripleEqualsSupport" class="extype" name="org.scalactic.TripleEqualsSupport">TripleEqualsSupport</a></h3>
+            </div><div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/AnyRef.html#scala.AnyRef" class="extype" name="scala.AnyRef">AnyRef</a></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <a href="http://scala-lang.org/files/archive/api/2.12.12/scala/Any.html#scala.Any" class="extype" name="scala.Any">Any</a></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+    </body>
+          </div>
+        </div>
+      </div>
+    </body>
+      </html>
