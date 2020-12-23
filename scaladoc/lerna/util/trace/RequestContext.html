@@ -100,7 +100,8 @@
         <a title="Lerna Util" href="../index.html"><span class="name">util</span></a>
       </span>
       
-      <p class="shortcomment cmt">Lerna Util</p><div class="fullcomment"><div class="comment cmt"><p>Lerna Util</p><h4>Overview</h4><p>The package provides utilities such as encryption, date and time, etc...</p><ul><li><a href="../encryption/index.html" class="extype" name="lerna.util.encryption">lerna.util.encryption</a> The package containing encryption features</li><li><a href="../lang/index.html" class="extype" name="lerna.util.lang">lerna.util.lang</a> The package containing fundamental features</li><li><a href="../security/index.html" class="extype" name="lerna.util.security">lerna.util.security</a> The package containing utilities to handle confidential information</li><li><a href="../time/index.html" class="extype" name="lerna.util.time">lerna.util.time</a> The package containing date and time features</li></ul></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../index.html" class="extype" name="lerna">lerna</a></dd></dl></div>
+      <p class="shortcomment cmt">Lerna Util</p><div class="fullcomment"><div class="comment cmt"><p>Lerna Util</p><h4>Overview</h4><p>The package provides utilities such as encryption, date and time, etc...</p><ul><li><a href="../encryption/index.html" class="extype" name="lerna.util.encryption">lerna.util.encryption</a> The package containing encryption features</li><li><a href="../lang/index.html" class="extype" name="lerna.util.lang">lerna.util.lang</a> The package containing fundamental features</li><li><a href="../security/index.html" class="extype" name="lerna.util.security">lerna.util.security</a> The package containing utilities to handle confidential information</li><li><a href="../time/index.html" class="extype" name="lerna.util.time">lerna.util.time</a> The package containing date and time features
+</li></ul></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../index.html" class="extype" name="lerna">lerna</a></dd></dl></div>
     </li><li name="lerna.util.trace" visbl="pub" class="indented3 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="trace"></a><a id="trace:trace"></a>
       <span class="permalink">
@@ -119,12 +120,12 @@
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="lerna.util">util</a></dd></dl></div>
     </li><li class="current-entities indented3">
                         <span class="separator"></span>
-                        <a class="trait" href="" title=""></a>
-                        <a href="" title="">RequestContext</a>
+                        <a class="trait" href="" title="A trait that represents a request context"></a>
+                        <a href="" title="A trait that represents a request context">RequestContext</a>
                       </li><li class="current-entities indented3">
-                        <a class="object" href="TraceId$.html" title=""></a>
-                        <a class="class" href="TraceId.html" title="*"></a>
-                        <a href="TraceId.html" title="*">TraceId</a>
+                        <a class="object" href="TraceId$.html" title="An object that provides a default trace ID"></a>
+                        <a class="class" href="TraceId.html" title="A class that represents trace ID"></a>
+                        <a href="TraceId.html" title="A class that represents trace ID">TraceId</a>
                       </li>
               </ul>
             </div>
@@ -153,7 +154,9 @@
       </h4>
 
       
-          <div id="comment" class="fullcommenttop"><div class="toggleContainer block">
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>A trait that represents a request context</p><p>A request context also represents a logging context.
+This logging context contains a tenant and a trace ID.
+</p></div><div class="toggleContainer block">
           <span class="toggle">
             Linear Supertypes
           </span>
@@ -207,7 +210,7 @@
 
         <div class="values members">
               <h3>Abstract Value Members</h3>
-              <ol><li name="lerna.util.trace.RequestContext#tenant" visbl="pub" class="indented0 " data-isabs="true" fullComment="no" group="Ungrouped">
+              <ol><li name="lerna.util.trace.RequestContext#tenant" visbl="pub" class="indented0 " data-isabs="true" fullComment="yes" group="Ungrouped">
       <a id="tenant:lerna.util.tenant.Tenant"></a><a id="tenant:Tenant"></a>
       <span class="permalink">
       <a href="../../../lerna/util/trace/RequestContext.html#tenant:lerna.util.tenant.Tenant" title="Permalink">
@@ -222,8 +225,8 @@
         <span class="name">tenant</span><span class="result">: <a href="../tenant/Tenant.html" class="extype" name="lerna.util.tenant.Tenant">Tenant</a></span>
       </span>
       
-      
-    </li><li name="lerna.util.trace.RequestContext#traceId" visbl="pub" class="indented0 " data-isabs="true" fullComment="no" group="Ungrouped">
+      <p class="shortcomment cmt">A tenant attached to this request</p><div class="fullcomment"><div class="comment cmt"><p>A tenant attached to this request</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>The tenant</p></dd></dl></div>
+    </li><li name="lerna.util.trace.RequestContext#traceId" visbl="pub" class="indented0 " data-isabs="true" fullComment="yes" group="Ungrouped">
       <a id="traceId:lerna.util.trace.TraceId"></a><a id="traceId:TraceId"></a>
       <span class="permalink">
       <a href="../../../lerna/util/trace/RequestContext.html#traceId:lerna.util.trace.TraceId" title="Permalink">
@@ -238,7 +241,7 @@
         <span class="name">traceId</span><span class="result">: <a href="TraceId.html" class="extype" name="lerna.util.trace.TraceId">TraceId</a></span>
       </span>
       
-      
+      <p class="shortcomment cmt">A trace ID attached to this request</p><div class="fullcomment"><div class="comment cmt"><p>A trace ID attached to this request</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>The trace ID</p></dd></dl></div>
     </li></ol>
             </div>
 

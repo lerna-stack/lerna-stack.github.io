@@ -100,7 +100,8 @@
         <a title="Lerna Util" href="../index.html"><span class="name">util</span></a>
       </span>
       
-      <p class="shortcomment cmt">Lerna Util</p><div class="fullcomment"><div class="comment cmt"><p>Lerna Util</p><h4>Overview</h4><p>The package provides utilities such as encryption, date and time, etc...</p><ul><li><a href="../encryption/index.html" class="extype" name="lerna.util.encryption">lerna.util.encryption</a> The package containing encryption features</li><li><a href="../lang/index.html" class="extype" name="lerna.util.lang">lerna.util.lang</a> The package containing fundamental features</li><li><a href="../security/index.html" class="extype" name="lerna.util.security">lerna.util.security</a> The package containing utilities to handle confidential information</li><li><a href="../time/index.html" class="extype" name="lerna.util.time">lerna.util.time</a> The package containing date and time features</li></ul></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../index.html" class="extype" name="lerna">lerna</a></dd></dl></div>
+      <p class="shortcomment cmt">Lerna Util</p><div class="fullcomment"><div class="comment cmt"><p>Lerna Util</p><h4>Overview</h4><p>The package provides utilities such as encryption, date and time, etc...</p><ul><li><a href="../encryption/index.html" class="extype" name="lerna.util.encryption">lerna.util.encryption</a> The package containing encryption features</li><li><a href="../lang/index.html" class="extype" name="lerna.util.lang">lerna.util.lang</a> The package containing fundamental features</li><li><a href="../security/index.html" class="extype" name="lerna.util.security">lerna.util.security</a> The package containing utilities to handle confidential information</li><li><a href="../time/index.html" class="extype" name="lerna.util.time">lerna.util.time</a> The package containing date and time features
+</li></ul></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../index.html" class="extype" name="lerna">lerna</a></dd></dl></div>
     </li><li name="lerna.util.tenant" visbl="pub" class="indented3 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="tenant"></a><a id="tenant:tenant"></a>
       <span class="permalink">
@@ -119,12 +120,12 @@
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="lerna.util">util</a></dd></dl></div>
     </li><li class="current-entities indented3">
                         <span class="separator"></span>
-                        <a class="trait" href="Tenant.html" title=""></a>
-                        <a href="Tenant.html" title="">Tenant</a>
+                        <a class="trait" href="Tenant.html" title="A trait that represents a tenant"></a>
+                        <a href="Tenant.html" title="A trait that represents a tenant">Tenant</a>
                       </li><li class="current-entities indented3">
-                        <a class="object" href="" title=""></a>
-                        <a class="class" href="TenantComponentLogContext.html" title="Request に依らない Tenant全体に関係するログ出力用の LogContext"></a>
-                        <a href="TenantComponentLogContext.html" title="Request に依らない Tenant全体に関係するログ出力用の LogContext">TenantComponentLogContext</a>
+                        <a class="object" href="" title="An object that provides implicit conversions from lerna.util.tenant.Tenant to lerna.log.LogContext"></a>
+                        <a class="class" href="TenantComponentLogContext.html" title="A trait that represents logging context that is including a tenant"></a>
+                        <a href="TenantComponentLogContext.html" title="A trait that represents logging context that is including a tenant">TenantComponentLogContext</a>
                       </li>
               </ul>
             </div>
@@ -155,7 +156,8 @@
       </h4>
 
       
-          <div id="comment" class="fullcommenttop"><div class="toggleContainer block">
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>An object that provides implicit conversions from <a href="Tenant.html" class="extype" name="lerna.util.tenant.Tenant">lerna.util.tenant.Tenant</a> to <a href="../../log/LogContext.html" class="extype" name="lerna.log.LogContext">lerna.log.LogContext</a>
+</p></div><div class="toggleContainer block">
           <span class="toggle">
             Linear Supertypes
           </span>
@@ -408,7 +410,7 @@
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
-    </li><li name="lerna.util.tenant.TenantComponentLogContext#logContext" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+    </li><li name="lerna.util.tenant.TenantComponentLogContext#logContext" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="logContext(implicittenant:lerna.util.tenant.Tenant):lerna.log.LogContext"></a><a id="logContext(Tenant):LogContext"></a>
       <span class="permalink">
       <a href="../../../lerna/util/tenant/TenantComponentLogContext$.html#logContext(implicittenant:lerna.util.tenant.Tenant):lerna.log.LogContext" title="Permalink">
@@ -423,7 +425,7 @@
         <span class="name">logContext</span><span class="params">(<span class="implicit">implicit </span><span name="tenant">tenant: <a href="Tenant.html" class="extype" name="lerna.util.tenant.Tenant">Tenant</a></span>)</span><span class="result">: <a href="../../log/LogContext.html" class="extype" name="lerna.log.LogContext">LogContext</a></span>
       </span>
       
-      
+      <p class="shortcomment cmt">Convert a tenant to a logging context that is including the tenant</p><div class="fullcomment"><div class="comment cmt"><p>Convert a tenant to a logging context that is including the tenant</p></div><dl class="paramcmts block"><dt class="param">tenant</dt><dd class="cmt"><p>A tenant to be converted</p></dd><dt>returns</dt><dd class="cmt"><p>A logging context that is including the tenant</p></dd></dl></div>
     </li><li name="scala.AnyRef#ne" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="ne(x$1:AnyRef):Boolean"></a><a id="ne(AnyRef):Boolean"></a>
       <span class="permalink">
