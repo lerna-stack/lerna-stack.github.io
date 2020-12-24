@@ -35,19 +35,41 @@ layout: default
 
 | Name  | Description |
 | ----------- | ---- |
-| Reference Code  | Coming soon. |
-| Project Template | Coming soon. |
-| Terraform Script | Coming soon. |
-| Guides | Coming soon. |
+| [lerna.g8](https://github.com/lerna-stack/lerna.g8) | templete for createing a new project |
+| [lerna-terraform](https://github.com/lerna-stack/lerna-terraform) | scripts to build the environment |
+| [lerna-sample-payment-app](https://github.com/lerna-stack/lerna-sample-payment-app)  | sample applications for developing with Lerna |
+| [lerna-design](https://github.com/lerna-stack/lerna-design) | documentation for developing with Lerna |
 | Learning Content | Coming soon. |
+| lerna-sample-batch-app | Coming soon. |
 
 ## Libraries
+- [Lerna API](scaladoc/index.html)
 
 | Name  | Description |
 | ----------- | ---- |
-| [akka-entity-replication](https://github.com/lerna-stack/akka-entity-replication) | Akka extension for fast recovery from failure with replicating stateful entity on multiple nodes in Cluster |
+| [akka-entity-replication](https://github.com/lerna-stack/akka-entity-replication) | Akka extension for fast recovery from failure with replicating stateful entity on multiple nodes in Cluster. |
+| [lerna-http](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-http.md) | Lerna HTTP library provides HTTP related features like below.<br> - Custom Json Format for [spray-json](https://github.com/spray/spray-json) <br> - Custom Directives for [Akka HTTP](https://doc.akka.io/docs/akka-http/current/index.html) <br> - Custom Header for [Akka HTTP](https://doc.akka.io/docs/akka-http/current/index.html) |
+| [lerna-log](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-log.md) | Lerna Log library provides logging related features like below. <br> - Custom log converters for [Logback](http://logback.qos.ch/) |
+| [lerna-management](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-management.md) | Lerna Management library provides management related features like below. <br> - SNMP metrics provider for [Kamon](https://kamon.io/) |
+| [lerna-testkit](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-testkit.md) | Lerna TestKit library provides testkits for <br> - [Akka Classic](https://doc.akka.io/docs/akka/current/index-classic.html) <br> - [Airframe](https://wvlet.org/airframe/) <br> - [WireMock](http://wiremock.org/) |
+| [lerna-util](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-util.md) | Lerna Util library provides some utilities like below. <br> - Encryption <br> - Typed Equals <br> - Security <br> - Date and Time |
+| [lerna-util-akka](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-util-akka.md) | Lerna Util Akka library provides some utilities related Akka Classic. |
+| [lerna-util-sequence](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-util-sequence.md) | Lerna Util Sequence library provides an ID generator. | 
+| [lerna-validation](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-validation.md) | Lerna Validation library provides custom validators for [Accord](http://wix.github.io/accord/). |
+| [lerna-wart-core](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-wart-core.md) | Lerna Wart Core library provides custom warts for [WartRemover](https://www.wartremover.org/) |
+| nablarch-fw-batch-parallelizable | Coming soon! |
 
-* Currently, only akka-entity-replication is available; other content will be released soon.
+## Getting started
+
+### Running on your local machine
+- see [lerna-sample-payment-app](https://github.com/lerna-stack/lerna-sample-payment-app)
+
+### Running on your server
+- see [lerna-terraform](https://github.com/lerna-stack/lerna-terraform)
+
+### Local development
+- see [lerna.g8](https://github.com/lerna-stack/lerna.g8)
+- create blank project executing `sbt new lerna-stack/lerna.g8`
 
 ## License
 Lerna is released under the terms of the [Apache License Version 2.0](./LICENSE).
