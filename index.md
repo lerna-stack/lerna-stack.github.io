@@ -37,13 +37,15 @@ layout: default
 | ----------- | ---- |
 | [lerna.g8](https://github.com/lerna-stack/lerna.g8) | templete for createing a new project |
 | [lerna-terraform](https://github.com/lerna-stack/lerna-terraform) | scripts to build the environment |
-| [lerna-sample-payment-app](https://github.com/lerna-stack/lerna-sample-payment-app)  | sample applications for developing with Lerna |
 | [lerna-design](https://github.com/lerna-stack/lerna-design) | documentation for developing with Lerna |
-| Learning Content | Coming soon. |
-| lerna-sample-batch-app | Coming soon. |
+| [lerna-handson](https://github.com/lerna-stack/lerna-handson) | hands-on content learning Akka and Scala with Lerna |
+| [lerna-sample-payment-app](https://github.com/lerna-stack/lerna-sample-payment-app)  | sample applications for developing with Lerna |
+| [akka-entity-replication-sample](https://github.com/lerna-stack/akka-entity-replication-sample)  | sample applications for developing with [akka-entity-replication](https://github.com/lerna-stack/akka-entity-replication) |
+| [nablarch-fw-batch-parallelizable-example](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable-example) | sample applications for developing with [Lerna batch parallelization library](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable) |
 
 ## Libraries
-- [Lerna API](scaladoc/index.html)
+- [lerna-app-library API](https://lerna-stack.github.io/scaladoc/index.html)
+- [akka-entity-replication API](https://lerna-stack.github.io/akka-entity-replication/latest/api/)
 
 | Name  | Description |
 | ----------- | ---- |
@@ -57,7 +59,7 @@ layout: default
 | [lerna-util-sequence](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-util-sequence.md) | Lerna Util Sequence library provides an ID generator. | 
 | [lerna-validation](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-validation.md) | Lerna Validation library provides custom validators for [Accord](http://wix.github.io/accord/). |
 | [lerna-wart-core](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-wart-core.md) | Lerna Wart Core library provides custom warts for [WartRemover](https://www.wartremover.org/) |
-| nablarch-fw-batch-parallelizable | Coming soon! |
+| [nablarch-fw-batch-parallelizable](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable) | a library for parallelizing batch processing with [Nablarch Batch Framework](https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/batch/index.html) |
 
 ## Getting started
 
