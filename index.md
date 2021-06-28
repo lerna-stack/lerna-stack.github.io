@@ -7,7 +7,7 @@ layout: default
 - Libraries and reference implementations for design and implementation are provided.
 
 
-![](img/lerna_overview.png)
+<object type="image/svg+xml" data="https://cdn.jsdelivr.net/gh/lerna-stack/lerna-stack.github.io@master/img/lerna_overview_en.drawio.svg"></object>
 
 
 ## Concept
@@ -17,6 +17,12 @@ layout: default
 - Eliminates the bottleneck of writing to the RDBMS by applying the CQRS with Event Sourcing architecture to the application layer
 - High Availability and Scalability with Akka Cluster
 - Provides responsiveness by making the application stateful, while providing fast failover with guaranteed consistency using Raft
+
+
+<object type="image/svg+xml" data="https://cdn.jsdelivr.net/gh/lerna-stack/lerna-stack.github.io@master/img/benchmarkscore_en.drawio.svg"></object>
+
+
+* Benchmark test report of Lerna available here(coming soon)
 
 ### Platform independent
 
@@ -31,57 +37,52 @@ layout: default
 
 
 ## Contents
-![](img/lerna_content_map.png)
+
+<object type="image/svg+xml" data="https://cdn.jsdelivr.net/gh/lerna-stack/lerna-stack.github.io@master/img/lerna_content_list_en.drawio.svg"></object>
+
 
 | Name  | Description |
 | ----------- | ---- |
-| [lerna.g8](https://github.com/lerna-stack/lerna.g8) | templete for createing a new project |
-| [lerna-terraform](https://github.com/lerna-stack/lerna-terraform) | scripts to build the environment |
-| [lerna-design](https://github.com/lerna-stack/lerna-design) | documentation for developing with Lerna |
-| [lerna-handson](https://github.com/lerna-stack/lerna-handson) | hands-on content learning Akka and Scala with Lerna |
-| [lerna-sample-payment-app](https://github.com/lerna-stack/lerna-sample-payment-app)  | sample applications for developing with Lerna |
-| [akka-entity-replication-sample](https://github.com/lerna-stack/akka-entity-replication-sample)  | sample applications for developing with [akka-entity-replication](https://github.com/lerna-stack/akka-entity-replication) |
-| [nablarch-fw-batch-parallelizable-example](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable-example) | sample applications for developing with [Lerna batch parallelization library](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable) |
+| [application template](https://github.com/lerna-stack/lerna.g8) | a template for creating a new project |
+| [Terraform scripts](https://github.com/lerna-stack/lerna-terraform) | scripts to build the environment |
+| [learning content](https://github.com/lerna-stack/lerna-handson) | hands-on content learning Akka and Scala with Lerna |
+| [system design documents](https://github.com/lerna-stack/lerna-design) | documentation for developing with Lerna |
+| [application libraries](#application-libraries) | libraries for developing applications that run on Lerna Stack ( [API Doc](https://lerna-stack.github.io/scaladoc/index.html) ) |
+| [sample application](https://github.com/lerna-stack/lerna-sample-payment-app)  | a sample application for developing with Lerna application libraries |
+| [HA library](https://github.com/lerna-stack/akka-entity-replication) | Akka extension for fast recovery from failure with replicating stateful entity on multiple nodes in Cluster.  ( [API Doc](https://lerna-stack.github.io/akka-entity-replication/latest/api/) )|
+| [ benchmark report for Lerna](https://fintan.jp/?p=5946) | a benchmark report measuring availability and throughput of Lerna |
+| [sample application for HA library](https://github.com/lerna-stack/akka-entity-replication-sample)  | a sample application for developing with [HA library](https://github.com/lerna-stack/akka-entity-replication) |
+| [batch parallelization library](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable) | a library for parallelizing batch processing with [Nablarch Batch Framework](https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/batch/index.html) |
+| [ sample application for batch library](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable-example) | a sample application for developing with [batch parallelization library](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable) |
+| [ benchmark report for batch library](https://fintan.jp/?p=7061) | a report testing speed improvement effect by parallelizing processing using [batch parallelization library](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable) |
 
-## Libraries
-- [lerna-app-library API](https://lerna-stack.github.io/scaladoc/index.html)
-- [akka-entity-replication API](https://lerna-stack.github.io/akka-entity-replication/latest/api/)
-
-| Name  | Description |
-| ----------- | ---- |
-| [akka-entity-replication](https://github.com/lerna-stack/akka-entity-replication) | Akka extension for fast recovery from failure with replicating stateful entity on multiple nodes in Cluster. |
-| [lerna-http](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-http.md) | Lerna HTTP library provides HTTP related features like below.<br> - Custom Json Format for [spray-json](https://github.com/spray/spray-json) <br> - Custom Directives for [Akka HTTP](https://doc.akka.io/docs/akka-http/current/index.html) <br> - Custom Header for [Akka HTTP](https://doc.akka.io/docs/akka-http/current/index.html) |
-| [lerna-log](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-log.md) | Lerna Log library provides logging related features like below. <br> - Custom log converters for [Logback](http://logback.qos.ch/) |
-| [lerna-management](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-management.md) | Lerna Management library provides management related features like below. <br> - SNMP metrics provider for [Kamon](https://kamon.io/) |
-| [lerna-testkit](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-testkit.md) | Lerna TestKit library provides testkits for <br> - [Akka Classic](https://doc.akka.io/docs/akka/current/index-classic.html) <br> - [Airframe](https://wvlet.org/airframe/) <br> - [WireMock](http://wiremock.org/) |
-| [lerna-util](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-util.md) | Lerna Util library provides some utilities like below. <br> - Encryption <br> - Typed Equals <br> - Security <br> - Date and Time |
-| [lerna-util-akka](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-util-akka.md) | Lerna Util Akka library provides some utilities related Akka Classic. |
-| [lerna-util-sequence](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-util-sequence.md) | Lerna Util Sequence library provides an ID generator. | 
-| [lerna-validation](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-validation.md) | Lerna Validation library provides custom validators for [Accord](http://wix.github.io/accord/). |
-| [lerna-wart-core](https://github.com/lerna-stack/lerna-app-library/blob/main/doc/lerna-wart-core.md) | Lerna Wart Core library provides custom warts for [WartRemover](https://www.wartremover.org/) |
-| [nablarch-fw-batch-parallelizable](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable) | a library for parallelizing batch processing with [Nablarch Batch Framework](https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/batch/index.html) |
 
 ## Getting started
 
-### Running on your local machine
-- see [lerna-sample-payment-app](https://github.com/lerna-stack/lerna-sample-payment-app)
+<object type="image/svg+xml" data="https://cdn.jsdelivr.net/gh/lerna-stack/lerna-stack.github.io@master/img/getting_started_en.drawio.svg"></object>
 
-### Running on your server
-- see [lerna-terraform](https://github.com/lerna-stack/lerna-terraform)
 
-### Local development
-- see [lerna.g8](https://github.com/lerna-stack/lerna.g8)
-- create blank project executing `sbt new lerna-stack/lerna.g8`
+## Articles
+
+- [Does parallelizing batch processing in Lerna make it linearly faster? (Fintan)](https://fintan.jp/?p=7061)
+- [The paradigm of the many-core era; Learn about reactive systems. (ThinkIT)](https://thinkit.co.jp/series/5659)
+
+## Slides
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/z5PCknVjHaFfxz" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/yugolf/ss-243892298" title="Reactive systems that focus on availability" target="_blank">Reactive systems that focus on availability</a> </strong> </div>
+
+
+<iframe src="https://speakerdeck.com/player/0b8606f26e2448719c33257ad2f9f6a2" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<div style="margin-bottom:5px"> <strong> <a href="https://speakerdeck.com/player/0b8606f26e2448719c33257ad2f9f6a2" title="Challenged to reduce stateful application downtime to less than 10 seconds" target="_blank">Challenged to reduce stateful application downtime to less than 10 seconds</a></strong> </div>
 
 ## License
-Lerna is released under the terms of the [Apache License Version 2.0](./LICENSE).
+This content is compliant with  [Apache License 2.0](https://fintan.jp/?page_id=5803&lang=en).
 
-<!-- Escape to set blank lines and use "*" -->
-\
-\
-\* The names of the companies and products described in this site are trademarks or registered trademarks of the respective companies.  
-\* Amazon Web Services, AWS are trademarks of Amazon.com, Inc. or its affiliates in the United States and/or other countries.  
-\* Akka is a trademark of Lightbend, Inc.
+ \* The names of the companies and products described in this site are trademarks or registered trademarks of the respective companies.  
+ \* Amazon Web Services, AWS are trademarks of Amazon.com, Inc. or its affiliates in the United States and/or other countries.  
+ \* Akka is a trademark of Lightbend, Inc.
+
+<a href="https://www.reactivemanifesto.org/"> <img style="border: 0; position: fixed; right: 0; top:0; z-index: 9000" src="//d379ifj7s9wntv.cloudfront.net/reactivemanifesto/images/ribbons/we-are-reactive-blue-right.png"> </a>
 
 
 © 2020 TIS Inc.
