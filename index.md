@@ -7,7 +7,7 @@ layout: default
 - Libraries and reference implementations for design and implementation are provided.
 
 
-<object type="image/svg+xml" data="https://cdn.jsdelivr.net/gh/lerna-stack/lerna-stack.github.io@v1.0.0/img/lerna_overview_en.drawio.svg"></object>
+<object type="image/svg+xml" data="https://cdn.jsdelivr.net/gh/lerna-stack/lerna-stack.github.io@v1.0.1/img/lerna_overview_en.drawio.svg"></object>
 
 
 ## Concept
@@ -19,7 +19,7 @@ layout: default
 - Provides responsiveness by making the application stateful, while providing fast failover with guaranteed consistency using Raft
 
 
-<object type="image/svg+xml" data="https://cdn.jsdelivr.net/gh/lerna-stack/lerna-stack.github.io@v1.0.0/img/benchmarkscore_en.drawio.svg"></object>
+<object type="image/svg+xml" data="https://cdn.jsdelivr.net/gh/lerna-stack/lerna-stack.github.io@v1.0.1/img/benchmarkscore_en.drawio.svg"></object>
 
 
 * Benchmark test report of Lerna available here(coming soon)
@@ -38,7 +38,7 @@ layout: default
 
 ## Contents
 
-<object type="image/svg+xml" data="https://cdn.jsdelivr.net/gh/lerna-stack/lerna-stack.github.io@v1.0.0/img/lerna_content_list_en.drawio.svg"></object>
+<object type="image/svg+xml" data="https://cdn.jsdelivr.net/gh/lerna-stack/lerna-stack.github.io@v1.0.1/img/lerna_content_list_en.drawio.svg"></object>
 
 
 | Name  | Description |
@@ -59,7 +59,7 @@ layout: default
 
 ## Getting started
 
-<object type="image/svg+xml" data="https://cdn.jsdelivr.net/gh/lerna-stack/lerna-stack.github.io@v1.0.0/img/getting_started_en.drawio.svg"></object>
+<object type="image/svg+xml" data="https://cdn.jsdelivr.net/gh/lerna-stack/lerna-stack.github.io@v1.0.1/img/getting_started_en.drawio.svg"></object>
 
 
 ## Articles
