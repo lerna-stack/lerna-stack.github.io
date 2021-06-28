@@ -22,7 +22,7 @@ layout: default
 <object type="image/svg+xml" data="https://cdn.jsdelivr.net/gh/lerna-stack/lerna-stack.github.io@master/img/benchmarkscore_en.drawio.svg"></object>
 
 
-* See availability and throughput of Lerna for more information on prerequisites and scores for benchmark testing(coming soon)
+* Benchmark test report of Lerna available here(coming soon)
 
 ### Platform independent
 
@@ -44,16 +44,16 @@ layout: default
 | Name  | Description |
 | ----------- | ---- |
 | [application template](https://github.com/lerna-stack/lerna.g8) | a template for creating a new project |
-| [terraform scripts](https://github.com/lerna-stack/lerna-terraform) | scripts to build the environment |
+| [Terraform scripts](https://github.com/lerna-stack/lerna-terraform) | scripts to build the environment |
 | [learning content](https://github.com/lerna-stack/lerna-handson) | hands-on content learning Akka and Scala with Lerna |
 | [system design documents](https://github.com/lerna-stack/lerna-design) | documentation for developing with Lerna |
 | [application libraries](#application-libraries) | libraries for developing applications that run on Lerna Stack ( [API Doc](https://lerna-stack.github.io/scaladoc/index.html) ) |
-| [sample application](https://github.com/lerna-stack/lerna-sample-payment-app)  | sample applications for developing with Lerna application libraries |
+| [sample application](https://github.com/lerna-stack/lerna-sample-payment-app)  | a sample application for developing with Lerna application libraries |
 | [HA library](https://github.com/lerna-stack/akka-entity-replication) | Akka extension for fast recovery from failure with replicating stateful entity on multiple nodes in Cluster.  ( [API Doc](https://lerna-stack.github.io/akka-entity-replication/latest/api/) )|
 | [ benchmark report for Lerna](https://fintan.jp/?p=5946) | a benchmark report measuring availability and throughput of Lerna |
-| [sample application for HA library](https://github.com/lerna-stack/akka-entity-replication-sample)  | sample applications for developing with [HA library](https://github.com/lerna-stack/akka-entity-replication) |
+| [sample application for HA library](https://github.com/lerna-stack/akka-entity-replication-sample)  | a sample application for developing with [HA library](https://github.com/lerna-stack/akka-entity-replication) |
 | [batch parallelization library](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable) | a library for parallelizing batch processing with [Nablarch Batch Framework](https://nablarch.github.io/docs/LATEST/doc/application_framework/application_framework/batch/index.html) |
-| [ sample application for batch library](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable-example) | sample applications for developing with [batch parallelization library](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable) |
+| [ sample application for batch library](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable-example) | a sample application for developing with [batch parallelization library](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable) |
 | [ benchmark report for batch library](https://fintan.jp/?p=7061) | a report testing speed improvement effect by parallelizing processing using [batch parallelization library](https://github.com/lerna-stack/nablarch-fw-batch-parallelizable) |
 
 
