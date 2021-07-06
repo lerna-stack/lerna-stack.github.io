@@ -47,7 +47,7 @@ layout: default
 | [Terraform scripts](https://github.com/lerna-stack/lerna-terraform) | scripts to build the environment |
 | [learning content](https://github.com/lerna-stack/lerna-handson) | hands-on content learning Akka and Scala with Lerna |
 | [system design documents](https://github.com/lerna-stack/lerna-design) | documentation for developing with Lerna |
-| [application libraries](#application-libraries) | libraries for developing applications that run on Lerna Stack ( [API Doc](https://lerna-stack.github.io/scaladoc/index.html) ) |
+| [application libraries](https://github.com/lerna-stack/lerna-app-library) | libraries for developing applications that run on Lerna Stack ( [API Doc](https://lerna-stack.github.io/scaladoc/index.html) ) |
 | [sample application](https://github.com/lerna-stack/lerna-sample-payment-app)  | a sample application for developing with Lerna application libraries |
 | [HA library](https://github.com/lerna-stack/akka-entity-replication) | Akka extension for fast recovery from failure with replicating stateful entity on multiple nodes in Cluster.  ( [API Doc](https://lerna-stack.github.io/akka-entity-replication/latest/api/) )|
 | [ benchmark report for Lerna](https://fintan.jp/?p=5946) | a benchmark report measuring availability and throughput of Lerna |
