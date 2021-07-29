@@ -22,7 +22,7 @@ layout: default
 <object type="image/svg+xml" data="https://cdn.jsdelivr.net/gh/lerna-stack/lerna-stack.github.io@v1.0.3/img/benchmarkscore_en.drawio.svg"></object>
 
 
-* Benchmark test report of Lerna available [here](./Lernaの可用性と処理能力.md)
+* Benchmark test report of Lerna available [here](https://fintan.jp/?p=7256)
 
 ### Platform independent
 
