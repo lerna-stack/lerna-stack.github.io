@@ -87,16 +87,3 @@ This content is compliant with  [Apache License 2.0](https://fintan.jp/?page_id=
 
 
 © 2020 TIS Inc.
-
-
-<div>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179004683-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-179004683-1');
-</script>
-</div>
